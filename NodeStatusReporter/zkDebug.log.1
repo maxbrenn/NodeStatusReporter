@@ -1,0 +1,577 @@
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=ubuntu
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.6.0_24
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Sun Microsystems Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/maxbrenn/git/Git Repository/NodeStatusReporter/bin:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-thrift-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/zookeeper-3.3.3.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/guava-r08.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/libthrift-0.7.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/log4j-1.2.15.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.2.0-24-generic
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/maxbrenn/git/Git Repository/NodeStatusReporter
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=141.52.218.12:2181,141.52.218.13:2181,141.52.218.14:2181,141.52.218.15:2181 sessionTimeout=5000 watcher=org.kit.tecs.ZKConnector@122ce908
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread() org.apache.zookeeper.ClientCnxn - Opening socket connection to server /141.52.218.12:2181
+INFO main-SendThread(141.52.218.12:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 10642ms for sessionid 0x0, closing socket connection and attempting reconnect
+DEBUG main-SendThread(141.52.218.12:2181) org.apache.zookeeper.ClientCnxn - Ignoring exception during shutdown output
+java.net.SocketException: Transport endpoint is not connected
+	at sun.nio.ch.SocketChannelImpl.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:669)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:386)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1212)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+INFO main-SendThread(141.52.218.12:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server /141.52.218.13:2181
+INFO main-SendThread(141.52.218.13:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 9396ms for sessionid 0x0, closing socket connection and attempting reconnect
+DEBUG main-SendThread(141.52.218.13:2181) org.apache.zookeeper.ClientCnxn - Ignoring exception during shutdown output
+java.net.SocketException: Transport endpoint is not connected
+	at sun.nio.ch.SocketChannelImpl.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:669)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:386)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1212)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=ubuntu
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.6.0_24
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Sun Microsystems Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/maxbrenn/git/Git Repository/NodeStatusReporter/bin:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-thrift-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/zookeeper-3.3.3.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/guava-r08.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/libthrift-0.7.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/log4j-1.2.15.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.2.0-24-generic
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/maxbrenn/git/Git Repository/NodeStatusReporter
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.kit.tecs.ZKConnector@4277158a
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread() org.apache.zookeeper.ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2181, initiating session
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on localhost/127.0.0.1:2181
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x137dab28aa3000c, negotiated timeout = 5000
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,1216,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,1,0,0,2,1,140} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,1216,-101  request:: '/coordination/cassandra,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,1217,0  request:: '/coordination/cassandra,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,1217,-101  request:: '/coordination/cassandra/nodes,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,1218,0  request:: '/coordination/cassandra/nodes,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 6,3  replyHeader:: 6,1218,-101  request:: '/coordination/cassandra/nodes/all,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,1219,0  request:: '/coordination/cassandra/nodes/all,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes/all 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,1219,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 9,3  replyHeader:: 9,1219,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 10,3  replyHeader:: 10,1219,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,1,0,0,0,1,1219} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 11,3  replyHeader:: 11,1219,-101  request:: '/coordination/cassandra/nodes/joining,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,1220,0  request:: '/coordination/cassandra/nodes/joining,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes/joining 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,1220,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 14,3  replyHeader:: 14,1220,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 15,3  replyHeader:: 15,1220,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,2,0,0,0,2,1220} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 16,3  replyHeader:: 16,1220,-101  request:: '/coordination/cassandra/nodes/normal,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 17,1  replyHeader:: 17,1221,0  request:: '/coordination/cassandra/nodes/normal,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes/normal 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,1221,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 19,3  replyHeader:: 19,1221,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 20,3  replyHeader:: 20,1221,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,3,0,0,0,3,1221} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 21,3  replyHeader:: 21,1221,-101  request:: '/coordination/cassandra/nodes/moving,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 22,1  replyHeader:: 22,1222,0  request:: '/coordination/cassandra/nodes/moving,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes/moving 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 23,3  replyHeader:: 23,1222,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 24,3  replyHeader:: 24,1222,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 25,3  replyHeader:: 25,1222,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,4,0,0,0,4,1222} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 26,3  replyHeader:: 26,1222,-101  request:: '/coordination/cassandra/nodes/leaving,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 27,1  replyHeader:: 27,1223,0  request:: '/coordination/cassandra/nodes/leaving,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes/leaving 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 28,3  replyHeader:: 28,1223,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 29,3  replyHeader:: 29,1223,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 30,3  replyHeader:: 30,1223,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,5,0,0,0,5,1223} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 31,3  replyHeader:: 31,1223,-101  request:: '/coordination/cassandra/nodes/decommissioned,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 32,1  replyHeader:: 32,1224,0  request:: '/coordination/cassandra/nodes/decommissioned,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes/decommissioned 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 33,3  replyHeader:: 33,1224,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 34,3  replyHeader:: 34,1224,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 35,3  replyHeader:: 35,1224,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,6,0,0,0,6,1224} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 36,3  replyHeader:: 36,1224,-101  request:: '/coordination/cassandra/nodes/unreachable,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 37,1  replyHeader:: 37,1225,0  request:: '/coordination/cassandra/nodes/unreachable,,v{s{31,s{'world,'anyone}}},0  response:: '/coordination/cassandra/nodes/unreachable 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 38,3  replyHeader:: 38,1225,-101  request:: '/coordination/cassandra/nodes/all/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 39,1  replyHeader:: 39,1226,0  request:: '/coordination/cassandra/nodes/all/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/all/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 40,3  replyHeader:: 40,1226,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 41,1  replyHeader:: 41,1227,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/unreachable/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 42,3  replyHeader:: 42,1227,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response:: s{1227,1227,1339409623599,1339409623599,0,0,0,87779178121986060,9,0,1227} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 43,2  replyHeader:: 43,1228,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,-1  response:: null
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 44,3  replyHeader:: 44,1228,-101  request:: '/coordination/cassandra/nodes/normal/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 45,1  replyHeader:: 45,1229,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/normal/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 46,3  replyHeader:: 46,1229,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 47,3  replyHeader:: 47,1229,0  request:: '/coordination/cassandra/nodes/normal/cass4,F  response:: s{1229,1229,1339409623887,1339409623887,0,0,0,87779178121986060,9,0,1229} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 48,5  replyHeader:: 48,1230,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,-1  response:: s{1229,1230,1339409623887,1339409627909,1,0,0,87779178121986060,9,0,1229} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 49,3  replyHeader:: 49,1230,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 50,3  replyHeader:: 50,1230,0  request:: '/coordination/cassandra/nodes/normal/cass4,F  response:: s{1229,1230,1339409623887,1339409627909,1,0,0,87779178121986060,9,0,1229} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000c, packet:: clientPath:null serverPath:null finished:false header:: 51,5  replyHeader:: 51,1231,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,-1  response:: s{1229,1231,1339409623887,1339409627956,2,0,0,87779178121986060,9,0,1229} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000c after 0ms
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 5521ms for sessionid 0x137dab28aa3000c, closing socket connection and attempting reconnect
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2181, initiating session
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on localhost/127.0.0.1:2181
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x137dab28aa3000c has expired, closing socket connection
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=ubuntu
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.6.0_24
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Sun Microsystems Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/maxbrenn/git/Git Repository/NodeStatusReporter/bin:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-thrift-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/zookeeper-3.3.3.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/guava-r08.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/libthrift-0.7.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/log4j-1.2.15.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.2.0-24-generic
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/maxbrenn/git/Git Repository/NodeStatusReporter
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1 sessionTimeout=5000 watcher=org.kit.tecs.ZKConnector@4277158a
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread() org.apache.zookeeper.ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2181, initiating session
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on localhost/127.0.0.1:2181
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x137dab28aa3000d, negotiated timeout = 5000
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,1233,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,1233,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,1233,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,1233,0  request:: '/coordination/cassandra/nodes/all,F  response:: s{1219,1219,1339409623288,1339409623288,0,2,0,0,0,0,1232} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,1233,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 6,3  replyHeader:: 6,1233,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 7,3  replyHeader:: 7,1233,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,1233,0  request:: '/coordination/cassandra/nodes/joining,F  response:: s{1220,1220,1339409623315,1339409623315,0,0,0,0,0,0,1220} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 9,3  replyHeader:: 9,1233,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 10,3  replyHeader:: 10,1233,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 11,3  replyHeader:: 11,1233,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 12,3  replyHeader:: 12,1233,0  request:: '/coordination/cassandra/nodes/normal,F  response:: s{1221,1221,1339409623346,1339409623346,0,2,0,0,0,0,1232} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,1233,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 14,3  replyHeader:: 14,1233,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 15,3  replyHeader:: 15,1233,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 16,3  replyHeader:: 16,1233,0  request:: '/coordination/cassandra/nodes/moving,F  response:: s{1222,1222,1339409623373,1339409623373,0,0,0,0,0,0,1222} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 17,3  replyHeader:: 17,1233,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,1233,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 19,3  replyHeader:: 19,1233,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 20,3  replyHeader:: 20,1233,0  request:: '/coordination/cassandra/nodes/leaving,F  response:: s{1223,1223,1339409623412,1339409623412,0,0,0,0,0,0,1223} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 21,3  replyHeader:: 21,1233,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 22,3  replyHeader:: 22,1233,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 23,3  replyHeader:: 23,1233,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 24,3  replyHeader:: 24,1233,0  request:: '/coordination/cassandra/nodes/decommissioned,F  response:: s{1224,1224,1339409623440,1339409623440,0,0,0,0,0,0,1224} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 25,3  replyHeader:: 25,1233,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 26,3  replyHeader:: 26,1233,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 27,3  replyHeader:: 27,1233,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 28,3  replyHeader:: 28,1233,0  request:: '/coordination/cassandra/nodes/unreachable,F  response:: s{1225,1225,1339409623470,1339409623470,0,2,0,0,0,0,1228} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 29,3  replyHeader:: 29,1233,-101  request:: '/coordination/cassandra/nodes/all/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 30,1  replyHeader:: 30,1234,0  request:: '/coordination/cassandra/nodes/all/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/all/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 31,3  replyHeader:: 31,1234,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 32,1  replyHeader:: 32,1235,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/unreachable/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 33,3  replyHeader:: 33,1235,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response:: s{1235,1235,1339412179218,1339412179218,0,0,0,87779178121986061,9,0,1235} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 34,2  replyHeader:: 34,1236,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,-1  response:: null
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 35,3  replyHeader:: 35,1236,-101  request:: '/coordination/cassandra/nodes/normal/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 36,1  replyHeader:: 36,1237,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/normal/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000d after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000d after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 37,3  replyHeader:: 37,1237,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 38,3  replyHeader:: 38,1237,0  request:: '/coordination/cassandra/nodes/normal/cass4,F  response:: s{1237,1237,1339412179542,1339412179542,0,0,0,87779178121986061,9,0,1237} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 39,5  replyHeader:: 39,1238,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,-1  response:: s{1237,1238,1339412179542,1339412183569,1,0,0,87779178121986061,9,0,1237} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 40,3  replyHeader:: 40,1238,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 41,3  replyHeader:: 41,1238,0  request:: '/coordination/cassandra/nodes/normal/cass4,F  response:: s{1237,1238,1339412179542,1339412183569,1,0,0,87779178121986061,9,0,1237} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000d, packet:: clientPath:null serverPath:null finished:false header:: 42,5  replyHeader:: 42,1239,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,-1  response:: s{1237,1239,1339412179542,1339412183624,2,0,0,87779178121986061,9,0,1237} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000d after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000d after 0ms
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=ubuntu
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.6.0_24
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Sun Microsystems Inc.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/maxbrenn/git/Git Repository/NodeStatusReporter/bin:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-thrift-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/apache-cassandra-1.1.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/zookeeper-3.3.3.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/guava-r08.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/libthrift-0.7.0.jar:/home/maxbrenn/git/Git Repository/NodeStatusReporter/lib/log4j-1.2.15.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.2.0-24-generic
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/maxbrenn
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/maxbrenn/git/Git Repository/NodeStatusReporter
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.kit.tecs.ZKConnector@4277158a
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread() org.apache.zookeeper.ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2181, initiating session
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on localhost/127.0.0.1:2181
+INFO main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x137dab28aa3000e, negotiated timeout = 5000
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,1241,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,1241,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,1241,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,1241,0  request:: '/coordination/cassandra/nodes/all,F  response:: s{1219,1219,1339409623288,1339409623288,0,4,0,0,0,0,1240} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,1241,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 6,3  replyHeader:: 6,1241,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 7,3  replyHeader:: 7,1241,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,1241,0  request:: '/coordination/cassandra/nodes/joining,F  response:: s{1220,1220,1339409623315,1339409623315,0,0,0,0,0,0,1220} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 9,3  replyHeader:: 9,1241,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 10,3  replyHeader:: 10,1241,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 11,3  replyHeader:: 11,1241,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 12,3  replyHeader:: 12,1241,0  request:: '/coordination/cassandra/nodes/normal,F  response:: s{1221,1221,1339409623346,1339409623346,0,4,0,0,0,0,1240} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,1241,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 14,3  replyHeader:: 14,1241,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 15,3  replyHeader:: 15,1241,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 16,3  replyHeader:: 16,1241,0  request:: '/coordination/cassandra/nodes/moving,F  response:: s{1222,1222,1339409623373,1339409623373,0,0,0,0,0,0,1222} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 17,3  replyHeader:: 17,1241,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,1241,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 19,3  replyHeader:: 19,1241,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 20,3  replyHeader:: 20,1241,0  request:: '/coordination/cassandra/nodes/leaving,F  response:: s{1223,1223,1339409623412,1339409623412,0,0,0,0,0,0,1223} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 21,3  replyHeader:: 21,1241,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 22,3  replyHeader:: 22,1241,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 23,3  replyHeader:: 23,1241,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 24,3  replyHeader:: 24,1241,0  request:: '/coordination/cassandra/nodes/decommissioned,F  response:: s{1224,1224,1339409623440,1339409623440,0,0,0,0,0,0,1224} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 25,3  replyHeader:: 25,1241,0  request:: '/coordination,F  response:: s{139,139,1339105572713,1339105572713,0,2,0,0,2,2,1217} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 26,3  replyHeader:: 26,1241,0  request:: '/coordination/cassandra,F  response:: s{1217,1217,1339409623045,1339409623045,0,1,0,0,0,1,1218} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 27,3  replyHeader:: 27,1241,0  request:: '/coordination/cassandra/nodes,F  response:: s{1218,1218,1339409623251,1339409623251,0,7,0,0,0,7,1225} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 28,3  replyHeader:: 28,1241,0  request:: '/coordination/cassandra/nodes/unreachable,F  response:: s{1225,1225,1339409623470,1339409623470,0,4,0,0,0,0,1236} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 29,3  replyHeader:: 29,1241,-101  request:: '/coordination/cassandra/nodes/all/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 30,1  replyHeader:: 30,1242,0  request:: '/coordination/cassandra/nodes/all/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/all/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 31,3  replyHeader:: 31,1242,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 32,1  replyHeader:: 32,1243,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/unreachable/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 33,3  replyHeader:: 33,1243,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response:: s{1243,1243,1339412197850,1339412197850,0,0,0,87779178121986062,9,0,1243} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 34,2  replyHeader:: 34,1244,0  request:: '/coordination/cassandra/nodes/unreachable/cass4,-1  response:: null
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 35,3  replyHeader:: 35,1244,-101  request:: '/coordination/cassandra/nodes/normal/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 36,1  replyHeader:: 36,1245,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,v{s{31,s{'world,'anyone}}},1  response:: '/coordination/cassandra/nodes/normal/cass4 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 37,3  replyHeader:: 37,1245,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 38,3  replyHeader:: 38,1245,0  request:: '/coordination/cassandra/nodes/normal/cass4,F  response:: s{1245,1245,1339412198066,1339412198066,0,0,0,87779178121986062,9,0,1245} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 39,5  replyHeader:: 39,1246,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,-1  response:: s{1245,1246,1339412198066,1339412202188,1,0,0,87779178121986062,9,0,1245} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 40,3  replyHeader:: 40,1246,-101  request:: '/coordination/cassandra/nodes/unreachable/cass4,F  response::  
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 41,3  replyHeader:: 41,1246,0  request:: '/coordination/cassandra/nodes/normal/cass4,F  response:: s{1245,1246,1339412198066,1339412202188,1,0,0,87779178121986062,9,0,1245} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x137dab28aa3000e, packet:: clientPath:null serverPath:null finished:false header:: 42,5  replyHeader:: 42,1247,0  request:: '/coordination/cassandra/nodes/normal/cass4,#3132372e302e312e31,-1  response:: s{1245,1247,1339412198066,1339412202243,2,0,0,87779178121986062,9,0,1245} 
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 0ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
+DEBUG main-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x137dab28aa3000e after 1ms
