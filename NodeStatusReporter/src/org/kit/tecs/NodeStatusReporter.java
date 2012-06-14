@@ -168,24 +168,23 @@ public class NodeStatusReporter {
 
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args)   {
 
 		NodeStatusReporter nsr = new NodeStatusReporter();
 
-		if (args.length < 2) {
-			System.out
-					.println("NodeStatusReporter <zkHost:zkPort>[,<zkHost:zkPort>] <zkHeadNode> [<nodename>] [<interval>]");
+	
+		zkHosts = "127.0.0.1:2181";
+		try {
+			nodename = InetAddress.getLocalHost().getHostName();
+		} catch (UnknownHostException e) {
+				e.printStackTrace();
 		}
 
-		zkHosts = args[0];
-		zkHeadNode = args[1];
-
-		if (args.length > 2) {
-			nodename = args[2];
-		}
-		if (args.length > 3) {
-			ival = Integer.parseInt(args[3]);
-		}
+	
+			zkHeadNode = "/coordination/cassandra/nodes";
+		
+				ival = 10;
+		
 
 		zkConnect();
 		
